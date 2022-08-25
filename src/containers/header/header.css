@@ -1,0 +1,155 @@
+.web__header {
+    display: flex;
+    
+}
+
+.web__header-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin-right: 5rem;
+}
+
+.web__header-content h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+}
+
+.web__header-content p {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: var(--color-text);
+    margin-top: 1.5rem;
+}
+
+.web__header-content__input {
+    width: 100%;
+    margin: 2rem 0 1rem;
+
+    display: flex;
+}
+
+
+
+.web__header-content__input button {
+    flex: 0.6;
+    width: 100%;
+    min-height: 50px;
+
+    background: #FF4820;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    cursor: pointer;
+    outline: none;
+    padding: 0 1rem;
+    border: none;
+
+    border-radius: 5px;
+
+}
+
+.web__header-content__people {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 2rem;
+
+}
+
+.web__header-content__people img {
+    width: 181.79px;
+    height: 38px;
+}
+
+.web__header-content__people p {
+    margin: 0 0 0 1rem;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 38px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.web__header-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.web__header-image img {
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+    .web__header {
+        flex-direction: column;
+    }
+
+    .web__header-content {
+        margin: 0 0 3rem;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .web__header-content h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .web__header-content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .web__header-content__people {
+        flex-direction: column;
+    }
+
+    .web__header-content__people p {
+        margin: 0;
+    }
+
+    
+    .web__header-content__input button {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .web__header-content h1 {
+        font-size: 30px;
+        line-height: 48px;
+    }
+
+    .web__header-content p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    
+    .web__header-content__input button {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+}
