@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Web-Mafias/static/css/main.886272f0.css",
+    "main.js": "/Web-Mafias/static/js/main.6f4a84c3.js",
+    "static/media/bootcamp.png": "/Web-Mafias/static/media/bootcamp.b03dccdcc7810b0159a9.png",
+    "static/media/backend.png": "/Web-Mafias/static/media/backend.805bab43d84485113ea3.png",
+    "static/media/javascript.png": "/Web-Mafias/static/media/javascript.6d5540b296a705101173.png",
+    "static/media/api.png": "/Web-Mafias/static/media/api.90ddc6bfd105c4a0404d.png",
+    "static/media/frontend.png": "/Web-Mafias/static/media/frontend.c8a8d9ec6f87128ff85a.png",
+    "static/media/instructor.png": "/Web-Mafias/static/media/instructor.38e5048581f0218a5e09.png",
+    "static/media/p3.png": "/Web-Mafias/static/media/p3.5c01516fb85b26952aa5.png",
+    "static/media/p1.png": "/Web-Mafias/static/media/p1.f50db3b190cdb8bdf5b2.png",
+    "static/media/p2.png": "/Web-Mafias/static/media/p2.a34c8646d906ee233720.png",
+    "static/media/hero.png": "/Web-Mafias/static/media/hero.7dc1e1883348d02c4b04.png",
+    "static/media/live.png": "/Web-Mafias/static/media/live.538a5fa6084ab048ffa4.png",
+    "static/media/people.png": "/Web-Mafias/static/media/people.5cd2d6fbcd48bd63f106.png",
+    "static/media/logo.png": "/Web-Mafias/static/media/logo.4d57fecbe0cb25df8a4e.png",
+    "index.html": "/Web-Mafias/index.html",
+    "main.886272f0.css.map": "/Web-Mafias/static/css/main.886272f0.css.map",
+    "main.6f4a84c3.js.map": "/Web-Mafias/static/js/main.6f4a84c3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.886272f0.css",
+    "static/js/main.6f4a84c3.js"
+  ]
+}
